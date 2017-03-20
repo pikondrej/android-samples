@@ -427,6 +427,7 @@ public class MarkerDemoActivity extends AppCompatActivity implements
         marker.setZIndex(zIndex);
         Toast.makeText(this, marker.getTitle() + " z-index set to " + zIndex,
                 Toast.LENGTH_SHORT).show();
+        mTopText.setText("Current Position: " + marker.getPosition());
 
         mLastSelectedMarker = marker;
         // We return false to indicate that we have not consumed the event and that we wish
