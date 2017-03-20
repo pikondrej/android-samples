@@ -239,7 +239,7 @@ public class MarkerDemoActivity extends AppCompatActivity implements
         // Set listeners for marker events.  See the bottom of this class for their behavior.
         mMap.setOnMarkerClickListener(this);
         mMap.setOnInfoWindowClickListener(this);
-        mMap.setOnMarkerDragListener(this);
+        //mMap.setOnMarkerDragListener(this);
         mMap.setOnInfoWindowCloseListener(this);
         mMap.setOnInfoWindowLongClickListener(this);
 
